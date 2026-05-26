@@ -17,3 +17,10 @@ UserSettings/
 *.pdb
 
 .DS_Store
+
+# Thư mục cấu hình của VS Code
+.vscode/
+
+# Thư mục rác phát sinh của Unity
+[Mm]emoryCaptures/
+[Cc]rashReports/

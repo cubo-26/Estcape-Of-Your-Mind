@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Coin
   - Trap
+  - SkillPickup
+  - GrapplePoint
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -15,7 +18,7 @@ TagManager:
   - UI
   - Ground
   - BackGround
-  - 
+  - Phase
   - 
   - 
   - 
@@ -52,6 +55,9 @@ TagManager:
   - name: Water
     uniqueID: 1848138967
     locked: 0
+  - name: Enemy
+    uniqueID: 73063965
+    locked: 0
   - name: Player
     uniqueID: 1737184187
     locked: 0
@@ -61,11 +67,14 @@ TagManager:
   - name: Item
     uniqueID: 809255861
     locked: 0
-  - name: UI
-    uniqueID: 1803585905
-    locked: 0
   - name: Trap
     uniqueID: 331407919
+    locked: 0
+  - name: Phase
+    uniqueID: 1647628267
+    locked: 0
+  - name: UI
+    uniqueID: 1803585905
     locked: 0
   m_RenderingLayers:
   - Default

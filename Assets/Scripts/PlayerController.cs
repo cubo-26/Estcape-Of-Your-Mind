@@ -37,6 +37,7 @@ private void HandleJump() {
     isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
 
     if (Input.GetButtonDown("Jump") && isGrounded) {
+        AudioManager.Instance.PlayJumpSound();
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
     }
 }

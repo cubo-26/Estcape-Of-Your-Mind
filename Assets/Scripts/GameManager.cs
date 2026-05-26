@@ -44,6 +44,7 @@ public class GameManager : MonoBehaviour
         if (!IsPlaying()) return;
         currentState = GameState.GameOver;
         gameOverPanel.SetActive(true);
+        AudioManager.Instance.PlayGameOverSound();
         Time.timeScale = 0f; // Đóng băng game
     }
 
@@ -52,6 +53,7 @@ public class GameManager : MonoBehaviour
         if (!IsPlaying()) return;
         currentState = GameState.Win;
         winPanel.SetActive(true);
+        AudioManager.Instance.PlayWinSound();
         Time.timeScale = 0f;
     }
 
