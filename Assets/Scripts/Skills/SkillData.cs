@@ -17,5 +17,4 @@ public class SkillData : ScriptableObject
         PhaseThrough,
         Grapple
     }
-    
 }

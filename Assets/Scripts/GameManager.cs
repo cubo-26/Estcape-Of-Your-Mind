@@ -9,12 +9,39 @@ public class GameManager : MonoBehaviour
         else Destroy(gameObject);
     }
     private int score = 0;
-    [SerializeField] private TextMeshProUGUI scoreText; 
+    [SerializeField] private TextMeshProUGUI scoreText;
+    
+    // Timer
+    [SerializeField] private float maxTime = 60f; // Thời gian tối đa (giây)
+    [SerializeField] private TextMeshProUGUI timerText;
+    private float remainingTime;
     
     // Update is called once per frame
     void Update()
     {
+        if (IsPlaying())
+        {
+            UpdateTimer();
+        }
+    }
+    
+    private void UpdateTimer()
+    {
+        remainingTime -= Time.deltaTime;
         
+        if (remainingTime <= 0)
+        {
+            remainingTime = 0;
+            GameOver();
+            return;
+        }
+        
+        if (timerText != null)
+        {
+            int minutes = (int)(remainingTime / 60f);
+            int seconds = (int)(remainingTime % 60f);
+            timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        }
     }
     public void AddScore(int points){
         score += points;
@@ -32,6 +59,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        remainingTime = maxTime;
         UpdateScore();
         // Đảm bảo panel tắt khi bắt đầu
         if (gameOverPanel) gameOverPanel.SetActive(false);

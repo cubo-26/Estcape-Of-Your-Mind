@@ -15,5 +15,5 @@ MonoBehaviour:
   skillName: Dash
   description: "L\u01B0\u1EDBt t\u1EDBi 1 kho\u1EA3ng"
   icon: {fileID: 0}
-  cooldown: 1.5
+  cooldown: 1
   skillType: 1

@@ -90,14 +90,13 @@ public class PlayerSkill : MonoBehaviour
     rb.gravityScale = 0f;
     rb.linearVelocity = new Vector2(direction * 18f, 0f);
 
-
     // Bật lại gravity sau 0.2s
     StartCoroutine(ResetGravityAfterDash());
     }
     System.Collections.IEnumerator ResetGravityAfterDash()
     {
     yield return new WaitForSeconds(1f);
-    rb.gravityScale = 5f; // đổi về đúng gravityScale bạn đang dùng
+    rb.gravityScale = 5f;
     }
 
     void DoPhaseThrough()

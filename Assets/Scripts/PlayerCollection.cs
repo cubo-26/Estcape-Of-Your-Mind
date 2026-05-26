@@ -10,7 +10,5 @@ public class PlayerCollection : MonoBehaviour
             GameManager.Instance.AddScore(1);
             Debug.Log("hit coin!");
         }
-
-
     }
 }

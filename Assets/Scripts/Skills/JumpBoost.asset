@@ -15,5 +15,5 @@ MonoBehaviour:
   skillName: Jump Boost
   description: "Nh\u1EA3y v\u1ECDt l\xEAn cao"
   icon: {fileID: 0}
-  cooldown: 1.5
+  cooldown: 1
   skillType: 0
