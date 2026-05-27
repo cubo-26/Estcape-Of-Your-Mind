@@ -134,14 +134,18 @@ public class PlayerSkill : MonoBehaviour
         return;
     }
 
-    // Tìm điểm bám gần nhất trong tầm
+    // Tìm điểm bám gần nhất trong tầm và trước mặt
     GameObject nearest = null;
     float minDist = grappleRange;
 
     foreach (GameObject point in grapplePoints)
     {
         float dist = Vector2.Distance(transform.position, point.transform.position);
-        if (dist < minDist)
+        Vector2 direction = (point.transform.position - transform.position).normalized;
+        float dot = Vector2.Dot(transform.right, direction);
+
+        // Chỉ chọn điểm bám trong tầm và trước mặt
+        if (dist < minDist && dot > 0)
         {
             minDist = dist;
             nearest = point;

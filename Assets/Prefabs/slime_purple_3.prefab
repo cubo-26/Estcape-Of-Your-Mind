@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3152062806751559721}
   - component: {fileID: 5222430806232498841}
   - component: {fileID: 6155926203938543688}
+  - component: {fileID: -4776886468307890327}
   m_Layer: 0
   m_Name: slime_purple_3
   m_TagString: Enemy
@@ -174,3 +175,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-4776886468307890327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6774587155546688150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d1294f8f39c2405cb85644607301d37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  moveSpeed: 1
+  distance: 2
