@@ -43,32 +43,17 @@ Trò chơi tập trung vào trải nghiệm vượt chướng ngại vật, thu 
 
 ### Menu Game
 
-<img width="1440" height="900" alt="Ảnh màn hình 2026-05-27 lúc 13 09 42" src="https://github.com/user-attachments/assets/e72dc588-37a0-44a7-9f7a-d3643ec4932b" />
+![MenyGame PNG](images/menugame.png)
 
 ### Gameplay
 
-<img width="1440" height="899" alt="Ảnh màn hình 2026-05-27 lúc 13 09 57" src="https://github.com/user-attachments/assets/fe6b91fe-9ee5-4bf4-8346-78b0f80defe6" />
+![gameplay PNG](images/gameplay.png)
 
 ### GIF Demo
 
 ![Gameplay GIF](images/gameplay.gif)
 
 > Đặt các ảnh/GIF vào thư mục `/images`
-
-Cấu trúc đề xuất:
-
-```
-
-Project
-│
-├── images
-│ ├── menu.png
-│ ├── gameplay.png
-│ └── gameplay.gif
-
-```
-
----
 
 ## Hướng dẫn cài đặt và chạy
 
