@@ -30,12 +30,12 @@ Trò chơi tập trung vào trải nghiệm vượt chướng ngại vật, thu 
 
 ## Kỹ năng
 
-| Skill | Nhân cách | Mô tả | Cooldown |
-|---------|------------|---------|-----------|
-| JumpBoost | Ego | Nhảy cao gấp đôi | 1s |
-| Flow | Ego | Lướt nhanh theo hướng di chuyển | 1.5s |
-| PhaseThrough | Alter | Xuyên qua nền tảng | 5s |
-| Grapple | Alter | Kéo nhân vật đến điểm móc gần nhất | 2s |
+| Skill        | Nhân cách  | Mô tả                              | Cooldown |
+|--------------|------------|------------------------------------|----------|
+| JumpBoost    | Ego        | Nhảy cao gấp đôi                   | 1s       |
+| Flow         | Ego        | Lướt nhanh theo hướng di chuyển    | 1.5s     |
+| PhaseThrough | Alter      | Xuyên qua nền tảng                 | 5s       |
+| Grapple      | Alter      | Kéo nhân vật đến điểm móc gần nhất | 2s       |
 
 ---
 
@@ -43,11 +43,11 @@ Trò chơi tập trung vào trải nghiệm vượt chướng ngại vật, thu 
 
 ### Menu Game
 
-![Menu](images/menu.png)
+<img width="1440" height="900" alt="Ảnh màn hình 2026-05-27 lúc 13 09 42" src="https://github.com/user-attachments/assets/e72dc588-37a0-44a7-9f7a-d3643ec4932b" />
 
 ### Gameplay
 
-![Gameplay](images/gameplay.png)
+<img width="1440" height="899" alt="Ảnh màn hình 2026-05-27 lúc 13 09 57" src="https://github.com/user-attachments/assets/fe6b91fe-9ee5-4bf4-8346-78b0f80defe6" />
 
 ### GIF Demo
 
